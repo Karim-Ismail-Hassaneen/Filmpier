@@ -3,11 +3,13 @@ import Home from "./pages/Home";
 import Signin from "./pages/Signin";
 import Signup from "./pages/Signup";
 import Profile from "./pages/Profile";
+import Navbar from "./components/Header/Navbar";
 
 
 function App() {
   return (
     <>
+    <Navbar />
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/Signin" element={<Signin />}/>

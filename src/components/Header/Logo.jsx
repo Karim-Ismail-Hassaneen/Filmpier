@@ -1,7 +1,17 @@
+import { Link } from "react-router-dom";
+
 const Logo = () => {
   return (
-    <div>Logo</div>
-  )
-}
+    <>
+      <Link to="/">
+        <img
+          src="/public/assets/images/filmpier.png"
+          alt="filmpier"
+          className="w-[140px]"
+        />
+      </Link>
+    </>
+  );
+};
 
-export default Logo
+export default Logo;
