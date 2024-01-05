@@ -1,12 +1,12 @@
 /* eslint-disable react/prop-types */
 import { Navigate } from "react-router-dom"
 import { UserAuth } from "../context/AuthContext"
-const ProtectedRoute = ({ childern }) => {
+const ProtectedRoute = ({ children }) => {
     const {user} = UserAuth()
     if(!user) {
         return <Navigate to='/' />
     } else {
-        return childern
+        return children
     }
 }
 
