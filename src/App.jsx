@@ -1,15 +1,21 @@
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Signin from "./pages/Signin";
+import Signup from "./pages/Signup";
+import Profile from "./pages/Profile";
 
-import './App.css'
 
 function App() {
-
   return (
     <>
-      <div className='w-full h-screen text-blue-700 flex items-center justify-center text-4xl'>
-        Hello
-       </div>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/Signin" element={<Signin />}/>
+        <Route path="/Signup" element={<Signup />}/>
+        <Route path="/Profile" element={<Profile />}/>
+      </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
