@@ -1,5 +1,5 @@
-const API_KEY ='63ab837872a76bff64cdb66b4bc0bb32'
-// const Access_Token = import.meta.env.REACT_APP_ACCESS_TOKEN
+const API_KEY =import.meta.env.VITE_IMDB_API_KEY
+// const Access_Token = import.meta.env.VITE_ACCESS_TOKEN
 
 const BASE_URL = 'https://api.themoviedb.org/3'
 

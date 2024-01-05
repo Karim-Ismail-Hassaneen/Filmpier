@@ -4,7 +4,7 @@ const Account = () => {
   return (
     <div className="flex items-center gap-3 bg-transparent">
     <Link to="/login" className='bg-transparent'>
-      <p className="text-lg text-white bg-transparent">Login</p>
+      <p className="text-lg text-white bg-transparent">SignIn</p>
     </Link>
 
     <Link to="/Signup">
