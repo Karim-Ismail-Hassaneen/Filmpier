@@ -37,7 +37,7 @@ const Signin = () => {
                 <p>Forgot Your Password</p>
               </div>
               <p className="text-gray-400 my-3">
-                Not Subscribed to Filmpier?{" "}
+                New to Filmpier?{" "}
                 <Link className="text-white" to="/signup">
                   Sign Up
                 </Link>
