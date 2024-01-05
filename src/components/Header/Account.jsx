@@ -3,13 +3,13 @@ import { Link } from "react-router-dom"
 const Account = () => {
   return (
     <div className="flex items-center gap-3 bg-transparent">
-    <Link to="/login" className='bg-transparent'>
-      <p className="text-lg text-white bg-transparent">SignIn</p>
+    <Link to="/SignIn" className='bg-transparent'>
+      <p className="text-lg text-white bg-transparent">Sign In</p>
     </Link>
 
     <Link to="/Signup">
       <button className="bg-[#fe0000] text-lg text-center px-5 py-2 rounded-sm text-white hover:bg-transparent duration-700">
-        SignUp
+        Sign Up
       </button>
     </Link>
   </div>
