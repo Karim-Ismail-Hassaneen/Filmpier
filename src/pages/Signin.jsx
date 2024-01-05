@@ -26,7 +26,7 @@ const Signin = () => {
     <div className="w-full h-screen">
       <img
         className="hidden sm:block absolute w-full h-screen object-cover"
-        src="/public/assets/images/hero.jpg"
+        src="https://assets.nflxext.com/ffe/siteui/vlv3/c38a2d52-138e-48a3-ab68-36787ece46b3/8142681c-c636-423f-8b18-962de87a6143/EG-en-20240101-popsignuptwoweeks-perspective_alpha_website_large.jpg"
         alt="Netflix background image"
       />
       <div className="bg-black/70 fixed top-0 left-0 w-full h-screen"></div>

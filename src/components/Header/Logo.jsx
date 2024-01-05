@@ -4,11 +4,7 @@ const Logo = () => {
   return (
     <>
       <Link to="/">
-        <img
-          src="/public/assets/images/filmpier.png"
-          alt="filmpier"
-          className="w-[140px]"
-        />
+      <h1 className="text-[#fe0000] text-3xl font-bold">Filmpier</h1>
       </Link>
     </>
   );
